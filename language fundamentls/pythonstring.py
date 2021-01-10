@@ -1,0 +1,8 @@
+name=("luluminar technolabtt")
+#words=name.split(",")
+#print(words)
+#print(name.upper())
+name=name.lstrip("lu")
+print("name=",name)
+#name=name.rstrip("tt")
+#print("name=",name)
