@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="binearysearch" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <output_file path="$PROJECT_DIR$/pythoncollections" is_save="true" />
     <module name="luminarpythonProject" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
