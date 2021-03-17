@@ -1,0 +1,36 @@
+h1{
+    color: rgb(41, 29, 31);
+    text-decoration-line: overline;
+}
+h2{
+    color:saddlebrown;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(233, 20, 144);
+}
+body{
+    background-image:url("4th-of-July-Dessert-Recipe-Ideas.jpg") ;
+    
+
+}
+li{
+    color:teal;
+    size: 20%;
+}
+.smoothie{
+    align-items: center;
+    border-width: 1px;
+    width: 30%;
+    border-color: sienna;
+    border-style: dotted;
+    background-image: url("banana.jpg");
+}
+.chocolate{
+    align-items: center;
+    border-width: 1px;
+    width: 30%;
+    border-color: sienna;
+    border-style: dotted;
+    background-image: url("choco.jpg");
+}

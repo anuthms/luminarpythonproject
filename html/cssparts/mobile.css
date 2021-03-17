@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    border-color: lightyellow;
+   
+}
+
+body{
+    background-image: url("pngtree-smart-tech-blue-phone-background-backgroundmobile-phonenew-erauniverseintelligentstereoscopicilluminatetechnologydynamicgridbackgroundadvertising-image_72371.jpg");
+    height: 50%;
+    
+}
+h1{
+    color:olivedrab;
+}
+#nokia{
+background-color: orchid;
+}
+#samsung{
+    background-color: pink;
+}
+c3{
+    background-color: rgb(23, 65, 105);
+}
+
+#nokia{
+    align-items: center;
+    border-width: 1px;
+    width: 30%;
+    border-color: sienna;
+    border-style: dotted;
+}
+
+#samsung{
+    
+    background-color:#5eeb34 ;
+    border-width: 1px;
+    width: 30%;
+    border-style: dotted;
+    border-color: slateblue;
+
+}
+.second{
+    
+    background-color: lightsalmon;
+    align-items: center;
+    border-width: 1px;
+    width: 30%;
+    border-color: sienna;
+    border-style: dotted;
+
+}
+h2{
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+

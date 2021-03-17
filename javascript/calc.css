@@ -1,0 +1,24 @@
+form{
+    position: relative;
+    background-color:crimson;
+    width:40%;
+    align-self:center;
+    margin-top: 30%;
+    border-radius: 10%;
+}
+.button{
+    background-color: darkkhaki;
+    padding: 4%;
+    border-radius:  5px; 
+    border-style: solid;
+    margin-left: 4%;
+    align-self: center;
+}
+.row1{
+    padding: 10px;
+    align-self: center;
+   
+}
+.res{
+    text-align: right;
+}

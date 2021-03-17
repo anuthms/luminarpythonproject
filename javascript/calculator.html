@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+
+<title>Calculator</title>
+</head>
+<body >
+<form name="calculator" >
+    <div class="row1">
+        <input type="text" name="ans" class="res">
+    </div>
+    <div class="row2">
+        <input type="button" value="1" class="button" onclick="displaybox('1')">
+        <input type="button" value="2" class="button" onclick="displaybox('2')">
+        <input type="button" value="3" class="button" onclick="displaybox('3')">
+        <input type="reset" value="Reset" class="button" onclick="displaybox('reset')">
+        
+    </div>
+    <div class="row3">
+        <input type="button" value="4" class="button" onclick="displaybox('4')">
+        <input type="button" value="5" class="button" onclick="displaybox('5')">
+        <input type="button" value="6" class="button" onclick="displaybox('6')">
+        <input type="button" value="-" class="button" onclick="displaybox('-')">
+        <input type="button" value="delete" class="button" onclick="del()">
+    </div>
+    <div class="row4">
+        <input type="button" value="7" class="button" onclick="displaybox('7')">
+        <input type="button" value="8" class="button" onclick="displaybox('8')">
+        <input type="button" value="9" class="button" onclick="displaybox('9')">
+        <input type="button" value="+" class="button" onclick="displaybox('+')">
+    </div>
+    <div class="row5">
+        <input type="button" value="0" class="button" onclick="displaybox('0')" >
+        <input type="button" value="*" class="button" onclick="displaybox('*')">
+        <input type="button" value="/" class="button" onclick="displaybox('/')" >
+        <input type="button" value="=" class="button" onclick="answer()" >
+    </div>
+
+<form action="">
+
+</form>
+</body>
+</html>

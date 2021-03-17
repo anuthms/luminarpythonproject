@@ -7,8 +7,12 @@ db=mysql.connector.connect(
     auth_plugin='mysql_native_password',
     database='pythondecember'
 )
-cursor=db.cursor()
-sql="create table movie(id int,name varchar(50),year varchar(30),rating int)"
-cursor.execute(sql)
-print("table created")
-db.close()
+def get_data():
+    cursor=db.cursor()
+    sql="select * from movie"
+    cursor.execute(sql)
+    movie=cursor.fetchall()
+    yield movie
+
+movie=get_data()
+print(movie.__next__())

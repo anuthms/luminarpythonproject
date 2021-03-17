@@ -8,7 +8,11 @@ db=mysql.connector.connect(
     database='pythondecember'
 )
 cursor=db.cursor()
-sql="create table movie(id int,name varchar(50),year varchar(30),rating int)"
-cursor.execute(sql)
-print("table created")
+try:
+    sql="insert into movie values(101,'pi',2007,4.5)"
+    cursor.execute(sql)
+    db.commit()
+except Exception as e:
+    print(e.args)
+    db.rollback()
 db.close()

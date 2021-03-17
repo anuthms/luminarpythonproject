@@ -1,0 +1,42 @@
+h1{
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.form-label{
+    width: 100%;
+    max-width: 250px;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(43, 226, 125);
+}
+form{
+    position: relative;
+  box-sizing: border-box;
+  
+  padding: 10px;
+  font-size: 16px;
+  background-color: darksalmon;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+  }
+.form-control{
+    width: 100%;
+    max-width: 250px;
+    padding: 5px;
+    margin: 20px;
+  }
+  button{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background-color: dodgerblue;
+  }
+
+   
+

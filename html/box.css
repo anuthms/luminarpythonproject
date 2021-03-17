@@ -1,0 +1,22 @@
+.top{
+    background-color: cyan;
+    height: 80%;
+    width: 50%;
+    margin-left: 10%;
+    padding-left: 23%;
+    padding-top: 10%;
+    font-size: 40px;
+    font-weight: 650;
+    font-family: cursive;
+}
+.bottom{
+    background-color: darkgoldenrod;
+    height: 80%;
+    width: 50%;
+    margin-left: 10%;
+    padding-left: 23%;
+    padding-top: 10%;
+    text-decoration: underline;
+
+}
+
